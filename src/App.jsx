@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "https://student-backend-fcsi.onrender.com";
+const API = "https://student-backend-fcsi.onrender.com/api";
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user") || "null"));
